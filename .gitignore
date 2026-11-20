@@ -1,0 +1,33 @@
+# Dependencies and environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build output
+frontend/dist/
+frontend/dev-dist/
+*.tsbuildinfo
+
+# Local data, uploads and runtime state
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+backend/storage/
+.oms-pids
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

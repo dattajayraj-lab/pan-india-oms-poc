@@ -1,0 +1,36 @@
+{
+  "app": { "title": "Grid-India Operations Management System", "short": "Grid-India OMS", "tagline": "Pan-India OMS for NLDC and RLDCs" },
+  "common": {
+    "login": "Login", "logout": "Logout", "submit": "Submit", "save": "Save", "saveDraft": "Save draft", "cancel": "Cancel",
+    "close": "Close", "search": "Search", "filter": "Filter", "status": "Status", "actions": "Actions", "remarks": "Remarks",
+    "approve": "Approve", "reject": "Reject", "return": "Return with remarks", "accept": "Accept", "object": "Object",
+    "forward": "Forward", "view": "View", "download": "Download", "upload": "Upload", "create": "Create", "edit": "Edit",
+    "delete": "Delete", "yes": "Yes", "no": "No", "loading": "Loading…", "noData": "No records", "lastUpdated": "Last updated",
+    "centre": "Centre", "allCentres": "All centres", "language": "Language", "notifications": "Notifications",
+    "recent": "Recently visited", "sessions": "Active sessions", "profile": "Profile", "help": "Help", "home": "Home",
+    "export": "Export", "copy": "Copy", "copied": "Copied", "pasteFromExcel": "Paste from Excel", "preview": "Preview",
+    "commit": "Commit", "comment": "Comment", "date": "Date", "from": "From", "to": "To", "details": "Details", "refresh": "Refresh"
+  },
+  "auth": {
+    "gridIndiaLogin": "Grid-India Login", "externalLogin": "External Login", "username": "Username", "password": "Password",
+    "captcha": "Solve to continue", "otp": "One-time password", "otpSent": "OTP sent to", "verify": "Verify",
+    "forgotPassword": "Forgot password?", "forgotUsername": "Forgot username?", "resetPassword": "Reset password",
+    "newPassword": "New password", "confirmPassword": "Confirm password", "changePassword": "Change password",
+    "passwordPolicy": "Min 8 chars with upper, lower, digit and special character",
+    "contactReview": "Please review your contact details", "contactReviewHelp": "Every 3 months we ask you to confirm your e-mail and mobile.",
+    "retain": "No change, retain", "update": "Update details", "devOtp": "POC demo: OTP is shown here instead of SMS",
+    "signUp": "New stakeholder? Request an account"
+  },
+  "nav": {
+    "launcher": "Modules", "admin": "Administration", "users": "Users", "roles": "Roles", "settings": "Settings",
+    "auditLogs": "Audit trail", "allSessions": "All sessions", "masterData": "Master data", "portal": "Portal content",
+    "myTickets": "My complaints"
+  },
+  "modules": {
+    "cas": "Complaint Addressal System", "registration": "Registration", "ftc": "First Time Charging",
+    "comm_cert": "Communication Certification", "realtime": "Real-time Outage Management", "outage_coord": "Outage Coordination",
+    "availability": "Availability Inputs Verification", "protection": "Protection & Tripping Studies", "alerts": "Message Alerts",
+    "sps": "SPS Status", "mis": "MIS & Reporting"
+  },
+  "launcher": { "title": "Application modules", "subtitle": "Modules you are authorised for are enabled; others are shown inactive.", "notAuthorised": "Not authorised" }
+}
