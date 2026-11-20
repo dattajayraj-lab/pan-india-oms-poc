@@ -56,3 +56,8 @@ This log was created after phases 1 to 9 were done, so they are recorded here in
 - **Problems and fixes:**
   - Screenshots were pushed away from their text, leaving half-empty pages. Fixed by keeping each section together and scaling screenshots to 74% of the text width.
   - The PDF page renderer wrote no files when called with `-File`. Fixed by calling it with `-Command`.
+
+### 2026-11-20 12:45 IST: commit check
+- **Phase:** 9 (commit and push), at the user's request "commit to github repo".
+- **What was done:** checked `git status` and compared with `origin/main`. Everything was already committed and pushed (last commit b662790). Added this entry and pushed it.
+- **Note:** the 4 sample complaints added for the manuals live only in the local demo database (`backend/oms_dev.db`), which is excluded from git by design. Running `start-oms.ps1 -Reset -Demo` rebuilds the demo data without them.
